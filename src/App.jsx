@@ -1,24 +1,25 @@
 import { Hero, Contact, About, Footer, Services, Sports } from "./sections";
+import Nav from "./components/Nav";
 
 const App = () => (
   <main className="relative">
-    {/* <Nav /> */}
-    <section className=" px-20 py-20">
+    <Nav />
+    <section className="max-sm:px-10 px-20 py-20">
       <Hero />
     </section>
-    <section className=" px-20 py-20">
+    <section className="max-sm:px-10 px-20 py-20">
       <Sports />
     </section>
-    <section className=" px-20 py-20">
+    <section className="max-sm:px-10 px-20 py-20">
       <Services />
     </section>
-    <section className=" px-20 py-20">
+    <section className="max-sm:px-10 px-20 py-20">
       <About />
     </section>
-    <section className=" px-20 py-20">
+    <section className="max-sm:px-10 px-20 py-20">
       <Contact />
     </section>
-    <section className=" px-20 py-20 bg-lemuria">
+    <section className="max-sm:px-10 px-20 py-20 bg-lemuria">
       <Footer />
     </section>
   </main>
