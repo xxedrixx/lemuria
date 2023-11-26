@@ -1,4 +1,4 @@
-import { Hero, Contact, About, Footer, Services, Sports } from "./sections";
+import { Hero, About, Footer, Services, Sports } from "./sections";
 import Nav from "./components/Nav";
 
 const App = () => (
@@ -15,9 +15,6 @@ const App = () => (
     </section>
     <section className="max-sm:px-10 px-20 py-20">
       <About />
-    </section>
-    <section className="max-sm:px-10 px-20 py-20">
-      <Contact />
     </section>
     <section className="max-sm:px-10 px-20 py-20 bg-lemuria">
       <Footer />
