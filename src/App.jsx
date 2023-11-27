@@ -4,19 +4,19 @@ import Nav from "./components/Nav";
 const App = () => (
   <main className="relative">
     <Nav />
-    <section className="max-sm:px-10 px-20 py-20">
+    <section className="xl:padding-1 wide:padding-r padding-b">
       <Hero />
     </section>
-    <section className="max-sm:px-10 px-20 py-20">
+    <section className="padding">
       <Sports />
     </section>
-    <section className="max-sm:px-10 px-20 py-20">
+    <section className="padding">
       <Services />
     </section>
-    <section className="max-sm:px-10 px-20 py-20">
+    <section className="padding">
       <About />
     </section>
-    <section className="max-sm:px-10 px-20 py-20 bg-lemuria">
+    <section className="bg-lemuria padding-y padding-t pb-8">
       <Footer />
     </section>
   </main>
