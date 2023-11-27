@@ -20,6 +20,7 @@ export default {
       },
       colors: {
         lemuria: "#ff5757",
+        "slate-gray": "#6D6D6D",
       },
       boxShadow: {
         "3xl": "0 10px 40px rgba(0, 0, 0, 0.1)",
