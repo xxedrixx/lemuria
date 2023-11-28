@@ -6,8 +6,8 @@ const Nav = () => {
   let [open, setOpen] = useState(false);
   return (
     <header className="padding-x py-8 absolute z-10 w-full">
-      <nav className="flex justify-between items-center max-container max-lg:flex-col max-lg:items-start">
-        <div className="flex justify-between items-center mb-10">
+      <nav className="flex justify-between items-center max-container">
+        <div className="flex justify-between items-center">
           <a href="/">
             <img
               src=""
@@ -31,8 +31,7 @@ const Nav = () => {
         </div>
         <ul
           className={`
-          flex-1 flex justify-center items-center gap-16 bg-lemuria w-full max-lg:flex-col max-lg:items-start max-lg:gap-10  
-          transition-all duration-500 ease-in ${
+          lg:flex lg:items-center gap-16 absolute lg:static max-lg:bg-lemuria lg:z-auto z-[-10] left-0 w-full lg:w-auto lg:pl-0 pl-[40px] transition-all duration-500 ease-in ${
             open ? "top-20 " : "top-[-490px]"
           }
           `}
