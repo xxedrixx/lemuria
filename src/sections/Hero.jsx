@@ -12,15 +12,16 @@ const Hero = () => {
           <span className="text-lemuria">Lemuria</span> Sport Association
         </h1>
       </div>
-      <div className="relative flex-1 flex flex-col justify-center items-start xl:min-h-screen w-full max-xl:padding-x">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-        perferendis sit blanditiis iusto repellendus, laboriosam nam, assumenda
-        commodi omnis distinctio excepturi dolorem iure ex fugit ipsam delectus
-        obcaecati similique sunt! <br /> Lorem ipsum dolor sit amet consectetur
-        adipisicing elit. Perspiciatis perferendis sit blanditiis iusto
-        repellendus, laboriosam nam, assumenda commodi omnis distinctio
-        excepturi dolorem iure ex fugit ipsam delectus obcaecati similique sunt!
-        <Button />
+      <div className="relative flex-1 flex flex-col justify-center items-start xl:min-h-screen w-full max-xl:padding-x font-montserrat text-lg leading-7">
+        <div className="mb-5">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
+          perferendis sit blanditiis iusto repellendus, laboriosam nam,
+          assumenda commodi omnis distinctio excepturi dolorem iure ex fugit
+          ipsam delectus obcaecati similique sunt!
+        </div>
+        <div>
+          <Button />
+        </div>
       </div>
     </section>
   );
