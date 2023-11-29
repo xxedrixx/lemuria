@@ -13,7 +13,7 @@ const Hero = () => {
         </h1>
       </div>
       <div className="relative flex-1 flex flex-col justify-center items-start xl:min-h-screen w-full max-xl:padding-x font-montserrat text-lg leading-7">
-        <div className="mb-5">
+        <div className="mb-5 break-words">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
           perferendis sit blanditiis iusto repellendus, laboriosam nam,
           assumenda commodi omnis distinctio excepturi dolorem iure ex fugit

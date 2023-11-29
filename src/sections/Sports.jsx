@@ -12,7 +12,7 @@ const Sports = () => {
         <h1 className="flex justify-center items-center font-palanquin text-4xl capitalize font-bold mb-5 text-lemuria">
           SPORTS
         </h1>
-        <p className="font-montserrat text-lg leading-7">
+        <p className="font-montserrat text-lg leading-7 break-words">
           Lorem, ipsum dolor sit amet consectetur adipisicing elit. Harum,
           magnam provident autem atque excepturi, nemo doloremque dolores
           dolorum voluptatem, corrupti sunt consectetur enim. Adipisci ratione
