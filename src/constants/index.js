@@ -1,5 +1,5 @@
-import { FaFileSignature } from "react-icons/fa";
-import { TbTournament } from "react-icons/tb";
+import contract from "../assets/images/contract.png";
+import cup from "../assets/images/cup.png";
 
 export const navLinks = [
   { href: "#home", label: "Home" },
@@ -10,12 +10,12 @@ export const navLinks = [
 
 export const services = [
   {
-    imgURL: TbTournament,
+    imgURL: cup,
     label: "Tournoi",
     subtext: "Enjoy seamless shopping with our complimentary shipping service.",
   },
   {
-    imgURL: FaFileSignature,
+    imgURL: contract,
     label: "Agence",
     subtext:
       "Experience worry-free transactions with our secure payment options.",
