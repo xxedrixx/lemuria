@@ -2,7 +2,7 @@ import { PiSoccerBallLight } from "react-icons/pi";
 
 const Sports = () => {
   return (
-    <section>
+    <section id="sports">
       <div className="max-xl:padding-x mb-5 ">
         <h1 className="flex justify-center items-center">SPORTS</h1>
         <p>
