@@ -2,20 +2,16 @@ import { RiMenuLine } from "react-icons/ri";
 import { navLinks } from "../constants";
 import { useState } from "react";
 
+import logo from "../assets/images/lemuriaFA.png";
+
 const Nav = () => {
   let [open, setOpen] = useState(false);
   return (
-    <header className="padding-x py-8 absolute z-10 w-full">
+    <header className="padding-x py-4 absolute z-10 w-full">
       <nav className="flex justify-between items-center max-container">
         <div className="flex justify-between items-center">
           <a href="/">
-            <img
-              src=""
-              alt="Logo"
-              width={129}
-              height={29}
-              className="m-0 w-[129px] h-[29px]"
-            />
+            <img src={logo} alt="logo" className="m-0 w-[50px] h-[50px]" />
           </a>
           <div
             onClick={() => setOpen(!open)}
