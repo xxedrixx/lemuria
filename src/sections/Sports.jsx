@@ -8,7 +8,7 @@ import { TbPlayHandball } from "react-icons/tb";
 const Sports = () => {
   return (
     <section id="sports">
-      <div className="max-xl:padding-x mb-5">
+      <div className="mb-5">
         <h1 className="flex justify-center items-center font-palanquin text-4xl capitalize font-bold mb-5 text-lemuria">
           SPORTS
         </h1>
