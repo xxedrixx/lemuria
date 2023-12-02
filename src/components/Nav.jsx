@@ -7,11 +7,11 @@ import logo from "../assets/images/lemuriaFA.png";
 const Nav = () => {
   let [open, setOpen] = useState(false);
   return (
-    <header className="padding-x py-4 absolute z-10 w-full">
+    <header className="padding-x py-1 absolute z-10 w-full">
       <nav className="flex justify-between items-center max-container">
         <div className="flex justify-between items-center">
           <a href="/">
-            <img src={logo} alt="logo" className="m-0 w-[50px] h-[50px]" />
+            <img src={logo} alt="logo" className="m-0 w-[70px] h-[70px]" />
           </a>
           <div
             onClick={() => setOpen(!open)}
@@ -22,6 +22,7 @@ const Nav = () => {
               width={25}
               height={25}
               className="cursor-pointer"
+              size={40}
             />
           </div>
         </div>
