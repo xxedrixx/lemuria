@@ -1,8 +1,10 @@
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { useState } from "react";
 
 const Contact = () => {
   const form = useRef();
+  const [message, setMessage] = useState({ text: "", type: "" });
 
   const sendEmail = (e) => {
     e.preventDefault();
@@ -16,13 +18,24 @@ const Contact = () => {
       )
       .then(
         (result) => {
-          alert("Message envoyé avec succès!");
+          setMessage({ text: "Message envoyé avec succès!", type: "success" });
+          clearMessageAfterDelay();
         },
         (error) => {
-          alert("Erreur lors de l'envoi du message");
+          setMessage({
+            text: "Erreur lors de l'envoi du message",
+            type: "error",
+          });
+          clearMessageAfterDelay();
         }
       );
     e.target.reset();
+  };
+
+  const clearMessageAfterDelay = () => {
+    setTimeout(() => {
+      setMessage({ text: "", type: "" });
+    }, 5000);
   };
 
   return (
@@ -37,35 +50,47 @@ const Contact = () => {
             placeholder="Nom"
             name="user_name"
             required
-            className="w-full mb-4 p-2 rounded border border-slate-gray"
+            className="w-full mb-4 p-2 rounded border border-slate-gray text-lg"
           />
           <input
             type="email"
             placeholder="Email"
             name="user_email"
             required
-            className="w-full mb-4 p-2 rounded border border-slate-gray"
+            className="w-full mb-4 p-2 rounded border border-slate-gray text-lg"
           />
           <input
             type="text"
             placeholder="Sujet"
             name="subject"
             required
-            className="w-full mb-4 p-2 rounded border border-slate-gray"
+            className="w-full mb-4 p-2 rounded border border-slate-gray text-lg"
           />
           <textarea
             name="message"
             placeholder="Message"
             rows="5"
-            className="w-full mb-4 p-2 rounded border border-slate-gray"
+            className="w-full mb-4 p-2 rounded border border-slate-gray text-lg"
           ></textarea>
           <button
             type="submit"
-            className=" text-white bg-lemuria py-2 px-4 rounded"
+            className=" text-white bg-lemuria py-2 px-4 rounded text-lg"
           >
             Envoyer
           </button>
         </form>
+
+        {message.text && (
+          <div
+            className={`mt-4 p-2 rounded ${
+              message.type === "success"
+                ? "bg-green-200 text-green-800"
+                : "bg-red-200 text-red-800"
+            }`}
+          >
+            {message.text}
+          </div>
+        )}
       </div>
     </section>
   );
