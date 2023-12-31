@@ -14,10 +14,9 @@ const Hero = () => {
       </div>
       <div className="relative flex-1 flex flex-col justify-center items-start xl:min-h-screen w-full max-xl:padding-x font-montserrat text-lg leading-7">
         <div className="mb-5 break-words">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis
-          perferendis sit blanditiis iusto repellendus, laboriosam nam,
-          assumenda commodi omnis distinctio excepturi dolorem iure ex fugit
-          ipsam delectus obcaecati similique sunt!
+          Lemuria est une association sportive trouvant son origine à Madagascar
+          en 2022, dont l&#39;objectif ultime de l&#39;association est de
+          promouvoir la relation humaine à travers la pratique sportive.
         </div>
         <div>
           <Button />

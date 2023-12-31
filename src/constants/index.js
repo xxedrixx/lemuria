@@ -2,10 +2,10 @@ import contract from "../assets/images/contract.png";
 import cup from "../assets/images/cup.png";
 
 export const navLinks = [
-  { href: "#home", label: "Home" },
+  { href: "#home", label: "Acceuil" },
   { href: "#sports", label: "Sports" },
   { href: "#services", label: "Services" },
-  { href: "#about", label: "About" },
+  { href: "#about", label: "A propos" },
 ];
 
 export const services = [
