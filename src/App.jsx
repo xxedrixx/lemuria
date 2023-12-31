@@ -1,5 +1,6 @@
 import { Hero, About, Footer, Services, Sports } from "./sections";
 import Nav from "./components/Nav";
+import Contact from "./components/Contact";
 
 const App = () => (
   <main className="relative">
@@ -14,7 +15,7 @@ const App = () => (
       <Services />
     </section>
     <section className="padding">
-      <About />
+      <Contact />
     </section>
     <section className="bg-lemuria padding-y padding-t pb-8">
       <Footer />
