@@ -5,10 +5,9 @@ const About = () => {
         A PROPOS
       </h1>
       <div className="break-words font-montserrat text-lg leading-7">
-        Regis par la loi 97-014 Lemuria est une association sportive trouvant
-        son origine à Madagascar en 2022, dont l&#39;objectif ultime de
-        l&#39;association est de promouvoir la relation humaine à travers la
-        pratique sportive.
+        Lemuria est une association sportive trouvant son origine à Madagascar
+        en 2022, dont l&#39;objectif ultime de l&#39;association est de
+        promouvoir la relation humaine à travers la pratique sportive.
       </div>
     </section>
   );

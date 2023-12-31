@@ -6,7 +6,7 @@ const Footer = () => {
     <footer className="max-container flex justify-around max-[730px]:flex-col">
       <div className="max-lg:mb-[20px]">
         <div className="flex justify-center items-center font-montserrat text-2xl leading-normal font-medium mb-1">
-          Contactez-nous
+          Contact
         </div>
         <div className="flex flex-col justify-center items-center font-montserrat text-base leading-normal text-white ">
           <a href="mailto:contact@lemuria.mg" className="underline">
