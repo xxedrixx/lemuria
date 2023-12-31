@@ -39,7 +39,7 @@ const Contact = () => {
   };
 
   return (
-    <section>
+    <section id="contact">
       <div className="flex flex-col items-center">
         <h1 className="flex justify-center items-center font-palanquin text-4xl capitalize font-bold mb-10 text-lemuria">
           CONTACTEZ-NOUS

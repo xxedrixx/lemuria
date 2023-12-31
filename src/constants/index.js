@@ -5,7 +5,7 @@ export const navLinks = [
   { href: "#home", label: "Acceuil" },
   { href: "#sports", label: "Sports" },
   { href: "#services", label: "Services" },
-  { href: "#about", label: "Contact" },
+  { href: "#contact", label: "Contact" },
 ];
 
 export const services = [
