@@ -14,7 +14,7 @@ const Goals = () => {
               Identifier et promouvoir les talents malgaches dans les domaines
               du sport et des arts culturels en créant des programmes offrant
               formation, ressources et opportunités pour exceller et représenter
-              Madagascar à l'international.
+              Madagascar à l&#39;international.
             </p>
           </div>
           <div className="flex-1 sm:w-[350px] sm:min-w-[350px] w-full rounded-[20px] shadow-3xl px-10 py-10">
@@ -60,36 +60,37 @@ const Goals = () => {
             quotidienne de ses habitants. Cette ville sera un modèle de
             développement durable et de convivialité, un lieu où les personnes
             de tous âges et de tous horizons se rassembleront pour partager leur
-            passion pour le sport, l'activité physique et le bien-être.
+            passion pour le sport, l&#39;activité physique et le bien-être.
           </p>
           <p className="pb-3">
             Au cœur de Lemuria se trouvera un complexe sportif de classe
-            mondiale, doté d'infrastructures modernes et variées, capables
-            d'accueillir des événements sportifs à l'échelle nationale et
-            internationale. Ce complexe sera un centre d'excellence pour la
-            pratique sportive, offrant des installations de haute qualité pour
-            une large gamme de sports, des sports individuels aux sports
+            mondiale, doté d&#39;infrastructures modernes et variées, capables
+            d&#39;accueillir des événements sportifs à l&#39;échelle nationale
+            et internationale. Ce complexe sera un centre d&#39;excellence pour
+            la pratique sportive, offrant des installations de haute qualité
+            pour une large gamme de sports, des sports individuels aux sports
             collectifs.
           </p>
           <p className="pb-3">
-            Lemuria mettra également l'accent sur l'éducation et le
-            développement des jeunes talents sportifs, grâce à la création d'une
-            école de formation spécialisée. Cette école proposera des programmes
-            de formation de haut niveau, encadrés par des entraîneurs et
-            éducateurs expérimentés, afin de permettre aux jeunes athlètes de
+            Lemuria mettra également l&#39;accent sur l&#39;éducation et le
+            développement des jeunes talents sportifs, grâce à la création
+            d&#39;une école de formation spécialisée. Cette école proposera des
+            programmes de formation de haut niveau, encadrés par des entraîneurs
+            et éducateurs expérimentés, afin de permettre aux jeunes athlètes de
             réaliser leur plein potentiel.
           </p>
           <p>
-            L'objectif ultime est de fonder un grand club sportif de haut
+            L&#39;objectif ultime est de fonder un grand club sportif de haut
             niveau, compétitif sur la scène nationale et internationale. Ce club
             deviendra une source de fierté pour la communauté, attirant des
             athlètes talentueux ainsi que des passionnés de sport du monde
             entier. En outre, Lemuria organisera régulièrement des événements
-            sportifs et non sportifs, créant ainsi un calendrier d'activités
-            riche et varié qui attirera des visiteurs et stimulera l'économie
-            locale. Ces événements seront conçus de manière professionnelle,
-            avec un soin particulier accordé à l'inclusivité, à la durabilité et
-            à l'impact positif sur la communauté.
+            sportifs et non sportifs, créant ainsi un calendrier d&#39;activités
+            riche et varié qui attirera des visiteurs et stimulera
+            l&#39;économie locale. Ces événements seront conçus de manière
+            professionnelle, avec un soin particulier accordé à
+            l&#39;inclusivité, à la durabilité et à l&#39;impact positif sur la
+            communauté.
           </p>
         </p>
       </div>
