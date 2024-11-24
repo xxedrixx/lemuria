@@ -53,7 +53,7 @@ const Goals = () => {
         <h2 className="mt-5 font-palanquin text-3xl leading-normal font-bold flex justify-center underline">
           Objectifs à long terme
         </h2>
-        <p className="flex-col justify-center mx-[400px] mt-3 break-words font-montserrat text-lg leading-normal text-slate-gray">
+        <p className="flex flex-col justify-center lg:justify-start mx-4 lg:mx-[400px] mt-3 break-words font-montserrat text-lg leading-normal text-slate-gray">
           <p className="pb-3">
             La vision de Lemuria est de créer une ville moderne et innovante, où
             le sport et le bien-être occupent une place centrale dans la vie
