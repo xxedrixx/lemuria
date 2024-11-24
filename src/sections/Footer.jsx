@@ -37,7 +37,11 @@ const Footer = () => {
           >
             <FaFacebook size={30} color="white" />
           </a>{" "}
-          <a href="https://www.instagram.com" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/lemuria_sport/"
+            target="_blank"
+            rel="noreferrer"
+          >
             <FaInstagram size={30} color="white" />
           </a>
         </div>{" "}

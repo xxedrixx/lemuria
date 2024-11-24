@@ -1,4 +1,4 @@
-import { Hero, About, Footer, Services, Sports } from "./sections";
+import { Hero, Footer, Services, Goals } from "./sections";
 import Nav from "./components/Nav";
 import Contact from "./components/Contact";
 
@@ -9,7 +9,7 @@ const App = () => (
       <Hero />
     </section>
     <section className="padding">
-      <Sports />
+      <Goals />
     </section>
     <section className="padding">
       <Services />

@@ -1,24 +1,24 @@
-import contract from "../assets/images/contract.png";
-import cup from "../assets/images/cup.png";
+import fun from "../assets/images/fun.png";
+import football from "../assets/images/football.png";
 
 export const navLinks = [
   { href: "#home", label: "Acceuil" },
-  { href: "#sports", label: "Sports" },
-  { href: "#services", label: "Services" },
+  { href: "#goals", label: "Nos Objectis" },
+  { href: "#services", label: "Activités" },
   { href: "#contact", label: "Contact" },
 ];
 
 export const services = [
   {
-    imgURL: cup,
-    label: "Tournoi",
+    imgURL: football,
+    label: "Ecole de Foot Lemuria",
     subtext:
-      "Rejoignez-nous pour une gamme exaltante de tournois exclusifs organisés par notre association. Découvrez l'excitation de nos tournois engageants et compétitifs pour les passionnés de sports. Nos tournois offrent une plateforme permettant aux athlètes et aux équipes de mettre en valeur leurs compétences et leur passion.",
+      "Nous sommes une école de football qui adopte la méthode allemande (Funinó) pour enseigner le football de manière ludique et structurée. Cette méthode innovante permet de développer les compétences techniques, tactiques et physiques des jeunes joueurs tout en favorisant leur épanouissement personnel. Nous accueillons des enfants et des adolescents, de 5 à 19 ans, qu'ils soient débutants ou déjà expérimentés. Notre objectif est d'offrir une formation de qualité, adaptée à chaque âge et niveau, dans un environnement motivant et respectueux.",
   },
   {
-    imgURL: contract,
-    label: "Bourse sportive USA",
+    imgURL: fun,
+    label: "Lemuria Plaisir",
     subtext:
-      "Explorez des opportunités illimitées dans le sport grâce à notre programme spécialisé dédié à aider les joueurs à poursuivre leur passion pour le sport tout en poursuivant leurs études. Notre agence facilite les relations entre les athlètes et les universités à l'étranger, offrant ainsi une voie aux personnes cherchant à combiner les universitaires avec leur amour du jeu.",
+      "Nous proposons une activité dédiée aux adultes, axée sur le football, pour offrir un moment de plaisir et de détente à ceux qui sont occupés pendant la journée. Nous organisons des séances de football une fois par semaine en soirée, permettant ainsi à chacun de se relaxer après une journée bien remplie. L’objectif de cette activité est de favoriser la convivialité, le bien-être et le plaisir à travers la pratique du football, dans une ambiance décontractée et sans pression. C'est une excellente occasion pour les adultes de se retrouver, de jouer au foot et de passer un bon moment tout en prenant soin de leur santé.",
   },
 ];
